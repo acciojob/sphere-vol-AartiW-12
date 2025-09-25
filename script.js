@@ -9,10 +9,8 @@ function volume_sphere() {
 	}
 	else{
 		let calculatedVolume = (4 / 3)*Math.PI * (Math.pow(radius,3))
-		vol.value = calculatedVolume.toFixed(4);
-		
+		vol.value = calculatedVolume.toFixed(4);	
 	}
-
 	return false;
 } 
 
